@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="PanelTemp">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl12" Children="Controls" ControlName="Group Box 12">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl12" ControlName="Analog Gauge 12">
+        <Property Name="Name">AnalogGaugeControl12</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz12;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl12" ControlName="LCD Control 12">
+        <Property Name="Name">LCDControl12</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz12;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl12</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">477, 738</Property>
+      <Property Name="Text">Testplatz 12</Property>
+      <Property Name="TabIndex">15</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl11" Children="Controls" ControlName="Group Box 11">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl11" ControlName="Analog Gauge 11">
+        <Property Name="Name">AnalogGaugeControl11</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz11;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl11" ControlName="LCD Control 11">
+        <Property Name="Name">LCDControl11</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz11;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl11</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">246, 738</Property>
+      <Property Name="Text">Testplatz 11</Property>
+      <Property Name="TabIndex">14</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl10" Children="Controls" ControlName="Group Box 10">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl10" ControlName="Analog Gauge 10">
+        <Property Name="Name">AnalogGaugeControl10</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz10;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl10" ControlName="LCD Control 10">
+        <Property Name="Name">LCDControl10</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz10;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl10</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">15, 738</Property>
+      <Property Name="Text">Testplatz 10</Property>
+      <Property Name="TabIndex">13</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl9" Children="Controls" ControlName="Group Box 9">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl9" ControlName="Analog Gauge 9">
+        <Property Name="Name">AnalogGaugeControl9</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz09;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl9" ControlName="LCD Control 9">
+        <Property Name="Name">LCDControl9</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz09;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl9</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">477, 253</Property>
+      <Property Name="Text">Testplatz 09</Property>
+      <Property Name="TabIndex">12</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl8" Children="Controls" ControlName="Group Box 8">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl8" ControlName="Analog Gauge 8">
+        <Property Name="Name">AnalogGaugeControl8</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz08;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl8" ControlName="LCD Control 8">
+        <Property Name="Name">LCDControl8</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz08;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl8</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">246, 253</Property>
+      <Property Name="Text">Testplatz 08</Property>
+      <Property Name="TabIndex">11</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl7" Children="Controls" ControlName="Group Box 7">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl7" ControlName="Analog Gauge 7">
+        <Property Name="Name">AnalogGaugeControl7</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz07;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl7" ControlName="LCD Control 7">
+        <Property Name="Name">LCDControl7</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz07;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl7</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">15, 253</Property>
+      <Property Name="Text">Testplatz 07</Property>
+      <Property Name="TabIndex">10</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl6" Children="Controls" ControlName="Group Box 6">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl6" ControlName="Analog Gauge 6">
+        <Property Name="Name">AnalogGaugeControl6</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz06;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl6" ControlName="LCD Control 6">
+        <Property Name="Name">LCDControl6</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz06;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl6</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">477, 496</Property>
+      <Property Name="Text">Testplatz 06</Property>
+      <Property Name="TabIndex">9</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl5" Children="Controls" ControlName="Group Box 5">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl5" ControlName="Analog Gauge 5">
+        <Property Name="Name">AnalogGaugeControl5</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz05;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl5" ControlName="LCD Control 5">
+        <Property Name="Name">LCDControl5</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz05;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl5</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">246, 496</Property>
+      <Property Name="Text">Testplatz 05</Property>
+      <Property Name="TabIndex">8</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl4" Children="Controls" ControlName="Group Box 4">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl4" ControlName="Analog Gauge 4">
+        <Property Name="Name">AnalogGaugeControl4</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz04;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl4" ControlName="LCD Control 4">
+        <Property Name="Name">LCDControl4</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz04;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl4</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">15, 496</Property>
+      <Property Name="Text">Testplatz 04</Property>
+      <Property Name="TabIndex">7</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl3" Children="Controls" ControlName="Group Box 3">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl3" ControlName="Analog Gauge 3">
+        <Property Name="Name">AnalogGaugeControl3</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz03;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl3" ControlName="LCD Control 3">
+        <Property Name="Name">LCDControl3</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz03;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl3</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">477, 15</Property>
+      <Property Name="Text">Testplatz 03</Property>
+      <Property Name="TabIndex">6</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl2" Children="Controls" ControlName="Group Box 2">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl2" ControlName="Analog Gauge 2">
+        <Property Name="Name">AnalogGaugeControl2</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz02;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl2" ControlName="LCD Control 2">
+        <Property Name="Name">LCDControl2</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz02;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl2</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">246, 15</Property>
+      <Property Name="Text">Testplatz 02</Property>
+      <Property Name="TabIndex">5</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl1" Children="Controls" ControlName="Group Box 1">
+      <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl1" ControlName="Analog Gauge 1">
+        <Property Name="Name">AnalogGaugeControl1</Property>
+        <Property Name="Size">164, 148</Property>
+        <Property Name="Location">23, 19</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE1LjAuODkuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>0</Argument>
+          <Argument>40</Argument>
+          <Argument>40</Argument>
+        </Property>
+        <Property Name="GaugeFont">Microsoft Sans Serif, 8.25pt</Property>
+        <Property Name="LegendText">°C</Property>
+        <Property Name="CurrentPosition">0</Property>
+        <Property Name="LowerRangeLimit">40</Property>
+        <Property Name="UpperRangeLimit">40</Property>
+        <Property Name="ScaleMin">0</Property>
+        <Property Name="ScaleMax">40</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz01;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=15.0.89.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl1" ControlName="LCD Control 1">
+        <Property Name="Name">LCDControl1</Property>
+        <Property Name="Size">143, 33</Property>
+        <Property Name="Location">32, 173</Property>
+        <Property Name="NumberIntDigits">3</Property>
+        <Property Name="DecimalPlaces">2</Property>
+        <Property Name="SymbolConfiguration">8;2;TempDB;;CanFrm_Testplatz01;Temperature;2;CAN;;-1;;;;;;0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl1</Property>
+      <Property Name="Size">207, 222</Property>
+      <Property Name="Location">15, 15</Property>
+      <Property Name="Text">Testplatz 01</Property>
+      <Property Name="TabIndex">4</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">711, 979</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>

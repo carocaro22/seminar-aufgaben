@@ -1,0 +1,95 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 256 CanFrm_Testplatz00: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 268 CanFrm_Testplatz12: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 267 CanFrm_Testplatz11: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 266 CanFrm_Testplatz10: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 265 CanFrm_Testplatz09: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 264 CanFrm_Testplatz08: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 263 CanFrm_Testplatz07: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 262 CanFrm_Testplatz06: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 261 CanFrm_Testplatz05: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 260 CanFrm_Testplatz04: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 259 CanFrm_Testplatz03: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 258 CanFrm_Testplatz02: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 257 CanFrm_Testplatz01: 4 Vector__XXX
+ SG_ Temperature : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+SIG_VALTYPE_ 256 Temperature : 1;
+SIG_VALTYPE_ 268 Temperature : 1;
+SIG_VALTYPE_ 267 Temperature : 1;
+SIG_VALTYPE_ 266 Temperature : 1;
+SIG_VALTYPE_ 265 Temperature : 1;
+SIG_VALTYPE_ 264 Temperature : 1;
+SIG_VALTYPE_ 263 Temperature : 1;
+SIG_VALTYPE_ 262 Temperature : 1;
+SIG_VALTYPE_ 261 Temperature : 1;
+SIG_VALTYPE_ 260 Temperature : 1;
+SIG_VALTYPE_ 259 Temperature : 1;
+SIG_VALTYPE_ 258 Temperature : 1;
+SIG_VALTYPE_ 257 Temperature : 1;
+
