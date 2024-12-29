@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733445704.07647 "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_202/Uebung_2-02.tex" "Uebung_2-02.pdf" "Uebung_2-02" 1733445705.46001 0
+["pdflatex"] 1735473180.60221 "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_202/Uebung_2-02.tex" "Uebung_2-02.pdf" "Uebung_2-02" 1735473182.09232 0
   "/etc/texmf/web2c/texmf.cnf" 1733445436.16905 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_202/Uebung_2-02.tex" 1733445700.63786 6398 f4507993c1d4fda4e8bab636b661f5d8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -132,10 +132,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733445456.21109 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1733445472 8213464 2d7a664ad70bbe9d6a9d1d1ac9932610 ""
   "Figures/Scheduler.pdf" 1619947818.18159 425646 8101a86ba4bdbb77d028d53ca57db67c ""
-  "Figures/Scheduler_Steckplatine.pdf" 1620120392.22561 620790 87096494316999323a7c7061b5a7ce1b ""
+  "Figures/Scheduler_Steckplatine.pdf" 1735472957.38219 872207 fcaf067a670c2cd98ad8ffbfcb5cab1e ""
   "Figures/hsmw-logo-klein.png" 1543502937.44442 8421 10b802b29ef13718a6b3b2b02871971b ""
-  "Uebung_2-02.aux" 1733445705.3792 329 b45a0b5d97446b63172805a9695b0372 "pdflatex"
-  "Uebung_2-02.out" 1733445705.25019 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Uebung_2-02.aux" 1735473181.9982 329 b45a0b5d97446b63172805a9695b0372 "pdflatex"
+  "Uebung_2-02.out" 1735473181.8272 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Uebung_2-02.tex" 1733445700.63786 6398 f4507993c1d4fda4e8bab636b661f5d8 ""
   (generated)
   "Uebung_2-02.aux"

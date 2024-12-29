@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.5)  5 DEC 2024 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.5)  29 DEC 2024 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,11 +614,11 @@ Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 111.
 
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc} <./Figures/Scheduler.pdf> <./Figures/hsmw-logo-klein.png>]
-<Figures/Scheduler_Steckplatine.pdf, id=44, 489.83pt x 356.33125pt>
+<Figures/Scheduler_Steckplatine.pdf, id=44, 489.83pt x 355.3275pt>
 File: Figures/Scheduler_Steckplatine.pdf Graphic file (type pdf)
 <use Figures/Scheduler_Steckplatine.pdf>
 Package pdftex.def Info: Figures/Scheduler_Steckplatine.pdf  used on input line 134.
-(pdftex.def)             Requested size: 360.55476pt x 262.29451pt.
+(pdftex.def)             Requested size: 360.55476pt x 261.55565pt.
 File: Figures/HSMW-Logo-klein.png Graphic file (type png)
 <use Figures/HSMW-Logo-klein.png>
 Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 138.
@@ -640,10 +640,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,22n,107p,10967b,759s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
-Output written on Uebung_2-02.pdf (2 pages, 1185738 bytes).
+Output written on Uebung_2-02.pdf (2 pages, 1437519 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
