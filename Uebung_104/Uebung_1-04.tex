@@ -82,30 +82,34 @@
 
 \chapter*{Übung 1-4 -- Übermitteln von CAN-Daten}
 
-Über einen \textbf{Thermistor} (Heißleiter, NTC (\texttt{MF52-103 3435})) soll die \textbf{Temperatur gemessen} werden. Dabei wird der Spannungsabfall über den temperaturabhängigen Widerstand mithilfe eines Spannungsteilers gemessen.
+Über einen \text{Thermistor} (Heißleiter, NTC (MF52-103 3435)) soll die Temperatur gemessen werden. Dabei wird der Spannungsabfall über den temperaturabhängigen Widerstand mithilfe eines Spannungsteilers gemessen.
+
 \vskip 0.2cm
 \noindent
-Die gemessene Temperatur soll auf dem \textbf{CAN übertragen} werden. Dafür wird das \textbf{Standalone-CAN-Board} mit dem \textbf{CAN-Controller MCP2515} über den \textbf{SPI-Bus} an den Arduino angeschlossen.
+
+Die gemessene Temperatur soll auf dem \textbf{CAN übertragen} werden. Dafür wird der Mikrokontroller \textbf{Aurix TC374} verwendet, der eine integrierte CAN-Schnittstelle bietet. Der \textbf{CAN-Transceiver „TLE9251VSJ“} von Infineon ist auf dem TC375 verbaut.
+
+\vskip 0.2cm
+\noindent
+
+% Die Kommunikation mit dem CAN-Bus erfolgt über den Anschluss an die Pins CAN-H und CAN-L des Mikrokontrollers, wie in der Abbildung dargestellt.
 
 \vskip 0.5cm
 \section*{Schaltungsaufbau} 
 \begin{itemize}
 \item Spannungsteiler: Vorwiderstand (10~k$\Omega$) an 5V und NTC (10~k$\Omega$ bei $25^\circ$C) an Masse
-\item Spannungsabgriff an Eingang A5 des Arduino mit einer Auflösung des ADC von 10~Bit bei Spannungsbereich von 0 \dots 5V
-\item Anschluss des CAN-Boards (MCP2515) via SPI (SCK, MISO, MOSI, CS, GND, VCC, (INT))
+\item Spannungsabgriff an Eingang A5 des Aurix TC375 mit einer Auflösung des ADC von 10~Bit bei Spannungsbereich von 0 \dots 5V
 \end{itemize}
 
 \begin{figure}[H]
   \centering
-  \subfloat[][]{\includegraphics[width=0.45\linewidth]{Fritzing/Uebung_104_Schaltplan}}%
-  \quad
-  \subfloat[][]{\includegraphics[width=0.45\linewidth]{Fritzing/Uebung_104_Steckplatine}}%
-  \caption{Aufbau: (a) Schaltplan, (b) Steckplatine}%
+  \includegraphics[width=0.45\linewidth]{Fritzing/Uebung_104_Steckplatine}
+  \caption{Steckplatine}
 \end{figure}
 
 \section*{Softwareerstellung} 
 
-Verwenden Sie als Basis das Arduino-Template \Farbcode{Can.ino}. Erstellen Sie einen \textbf{Ordner} mit dem Name \Farbcode{Can} und legen Sie in diesem Ordner die aus OPAL heruntergeladenen \textbf{vier Dateien} (\Farbcode{can.ino}, \Farbcode{can.h}, \Farbcode{mcp2515.h}, \Farbcode{mcp2515.cpp}) ab.
+Verwenden Sie als Basis das Aurix-Development-Studio-Template \Farbcode{Uebung\_104\_Template.zip}. Importieren sie das Projekt Erstellen Sie einen \textbf{Ordner} mit dem Name \Farbcode{Can} und legen Sie in diesem Ordner die aus OPAL heruntergeladenen \textbf{vier Dateien} (\Farbcode{can.ino}, \Farbcode{can.h}, \Farbcode{mcp2515.h}, \Farbcode{mcp2515.cpp}) ab.
 
 Für weitere Hilfe bei der Programmierung mittel Arduino-Bibliothek siehe  \url{https://www.arduino.cc/reference/de/} sowie zum MCP2515-Treiber im Anhang dieser Anleitung.
 \vskip 0.2cm
