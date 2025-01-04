@@ -33,17 +33,12 @@
 // operator switch 
 #define PORT_SWITCH          1
 
-
-
 // ----------------------------------------------------------------------------
 //   V A R I A B L E S    D E F I N I T I O N S
 // ----------------------------------------------------------------------------
 
 // TrafficControl object
 CTrafficControl oTrCntl;
-
-
-
 
 // ----------------------------------------------------------------------------
 //   F U N C T I O N S    D E F I N I T I O N S
@@ -84,7 +79,6 @@ void setup() {
 //   Cyclic function
 // ----------------------------------------------------------------------------
 void loop() {
-
  // First check the operation mode
   // ------------------------------
   if (digitalRead(PORT_SWITCH) == HIGH) {

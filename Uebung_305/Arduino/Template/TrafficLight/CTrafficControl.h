@@ -57,7 +57,4 @@ private:
   
   CPedesLight   m_oPdLght;     // Pedestrian light object
   CTrafficLight m_oTrLght;     // Traffic light object
-
-  
-    
 };

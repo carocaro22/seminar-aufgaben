@@ -5,7 +5,7 @@
 //   Hochschule Mittweida, INW                                     
 //   Prof. J. Thomanek                                             
 //                               
-// ----------------------------------------------------------------------------------------                                
+// ----------------------------------------------------------------------------------------                               
 
 // ----------------------------------------------------------------------------------------
 //   C O N S T A N T S    D E F I N I T I O N S
@@ -16,10 +16,8 @@
 #define LIGHTSTATE_RED_MSK    0x01
 #define LIGHTSTATE_YELLOW_MSK 0x02
 #define LIGHTSTATE_GREEN_MSK  0x04
-
 #define LIGHTSTATE_STOP_MSK   0x01
 #define LIGHTSTATE_GO_MSK     0x02
-
 
 //  Light States 
 // ---------------------------------------------------------------------------------------
@@ -34,7 +32,6 @@
 #define PL_STATE_OFF          0x00
 #define PL_STATE_WAIT         LIGHTSTATE_STOP_MSK
 #define PL_STATE_WALK         LIGHTSTATE_GO_MSK
-
 
 //  Times in 100 ms
 // ---------------------------------------------------------------------------------------
