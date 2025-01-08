@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1736082834.62497 "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_104/Uebung_1-04.tex" "Uebung_1-04.pdf" "Uebung_1-04" 1736082836.18336 0
+["pdflatex"] 1736370091.21008 "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_104/Uebung_1-04.tex" "Uebung_1-04.pdf" "Uebung_1-04" 1736370092.85528 0
   "/etc/texmf/web2c/texmf.cnf" 1733445436.16905 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_104/Uebung_1-04.tex" 1736082832.84154 8406 0208dbe247a20d03f20edad1de58c9e8 ""
+  "/home/carol/Documents/Master/WiHi/Seminaraufgaben/Uebung_104/Uebung_1-04.tex" 1736370085.24765 8400 90d118b871d66f3f9a4e237aa05b1b91 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -148,9 +148,9 @@
   "Figures/Uebung_104_Arduino_Pins.png" 1736070012.81303 296529 b48deecaf090c73dd1404138f6d98b8d ""
   "Figures/hsmw-logo-klein.png" 1543502937.44442 8421 10b802b29ef13718a6b3b2b02871971b ""
   "Fritzing/Uebung_104_Steckplatine.pdf" 1735421318.95908 776342 4d34f6fd566126d4b9b910685e763a23 ""
-  "Uebung_1-04.aux" 1736082836.0936 806 f3a316b12920be8b3d215b5ff4c79618 "pdflatex"
-  "Uebung_1-04.out" 1736082835.77959 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Uebung_1-04.tex" 1736082832.84154 8406 0208dbe247a20d03f20edad1de58c9e8 ""
+  "Uebung_1-04.aux" 1736370092.76185 806 a2b9bb557c149edc02ee5109a6e55edc "pdflatex"
+  "Uebung_1-04.out" 1736370092.44288 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Uebung_1-04.tex" 1736370085.24765 8400 90d118b871d66f3f9a4e237aa05b1b91 ""
   (generated)
   "Uebung_1-04.aux"
   "Uebung_1-04.log"

@@ -294,9 +294,6 @@ INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT ./Figures/hsmw-logo-klein.png
 INPUT ./Figures/hsmw-logo-klein.png
 INPUT ./Figures/hsmw-logo-klein.png
-INPUT ./Figures/hsmw-logo-klein.png
-INPUT ./Figures/hsmw-logo-klein.png
-INPUT ./Figures/hsmw-logo-klein.png
 INPUT Uebung_1-04.aux
 INPUT ./Uebung_1-04.out
 INPUT ./Uebung_1-04.out

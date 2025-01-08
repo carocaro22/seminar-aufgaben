@@ -85,7 +85,7 @@
 \textbf{(a.)}
 \vskip 0.2cm
 \noindent
-Schreiben Sie für den Arduino einen einfachen \textbf{nichtpreemptiven Scheduler} (\Farbcode{sched.h}, \Farbcode{sched.cpp} -- siehe Template-Dateien in OPAL) mit den folgenden Anforderungen:
+Schreiben Sie für den Aurix TC375 Lite Kit einen einfachen \textbf{nichtpreemptiven Scheduler} (\Farbcode{Scheduler.h}, \Farbcode{Schesuler.cpp} -- siehe Template-Dateien mit den folgenden Anforderungen:
 \begin{itemize}
 \item Der Scheduler besitzt einen Puffer mit einer maximalen Anzahl handelbarer Tasks (z.B. 10) 
 \item Jede Task besitzt einen \textbf{\emph{Task Control Block}}, bestehend aus (vgl. Bild)
@@ -103,7 +103,7 @@ Schreiben Sie für den Arduino einen einfachen \textbf{nichtpreemptiven Schedule
 \end{figure}
 
 \item Der Scheduler ruft in Abhängigkeit des Typs und der Zyklus- und Aktivierungszeit die aktiven Tasks im Puffer entsprechend auf  
-\item Verwenden Sie als Zeitbasis die Funktion \Farbcode{millis()} der Arduino-Bibliothek -- Sie liefert einfach einen aktuellen Zähler zurück (Zeit in ms seit Reset), der durch einen Interrupt aller 1024 $\mu$s inkrementiert wird
+\item Verwenden Sie als Zeitbasis die Funktion \Farbcode{millis()}. Sie liefert einfach einen aktuellen Zähler zurück (Zeit in ms seit Reset), der durch einen Interrupt aller 1024 $\mu$s inkrementiert wird
 \item Liegt keine Aktivierung einer regulären Task unmittelbar bevor, werden die möglichen IDLE-Tasks aufgerufen
 
 \item \textbf{Öffentliche Schnittstellen} (Funktionen) zur Anwendung:
@@ -120,7 +120,7 @@ Schreiben Sie für den Arduino einen einfachen \textbf{nichtpreemptiven Schedule
 \noindent\textbf{(b.)}
 \vskip 0.2cm
 \noindent
-Schreiben Sie ein einfaches Anwendungsprogramm für den Arduino (siehe Template-Sketch in OPAL), das drei periodische Tasks unterschiedlicher Zykluszeiten definiert
+Schreiben Sie ein einfaches Anwendungsprogramm für den Aurix TC375 Lite Kit (siehe Template in OPAL), das drei periodische Tasks unterschiedlicher Zykluszeiten definiert.
 \begin{itemize}
 \item \Farbcode{Task100ms}
 \item \Farbcode{Task500ms}
