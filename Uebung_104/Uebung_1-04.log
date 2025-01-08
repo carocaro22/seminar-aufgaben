@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.5)  29 DEC 2024 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.5)  5 JAN 2025 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,20 +536,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count317
 \l__pdf_internal_box=\box66
-) (./Uebung_1-04.aux
-
-LaTeX Warning: Label `LST_MyCam' multiply defined.
-
-
-LaTeX Warning: Label `LST_MyCam' multiply defined.
-
-
-LaTeX Warning: Label `LST_MyCam' multiply defined.
-
-
-LaTeX Warning: Label `LST_MyCam' multiply defined.
-
-)
+) (./Uebung_1-04.aux)
 \openout1 = `Uebung_1-04.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -649,74 +636,93 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: Fritzing/Uebung_104_Steckplatine.pdf Graphic file (type pdf)
 <use Fritzing/Uebung_104_Steckplatine.pdf>
 Package pdftex.def Info: Fritzing/Uebung_104_Steckplatine.pdf  used on input line 106.
-(pdftex.def)             Requested size: 202.8099pt x 155.42825pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 112.
+(pdftex.def)             Requested size: 247.88182pt x 189.97487pt.
+<Figures/Uebung_104_Arduino_Pins.png, id=5, 1278.7775pt x 792.9625pt>
+File: Figures/Uebung_104_Arduino_Pins.png Graphic file (type png)
+<use Figures/Uebung_104_Arduino_Pins.png>
+Package pdftex.def Info: Figures/Uebung_104_Arduino_Pins.png  used on input line 112.
+(pdftex.def)             Requested size: 405.61981pt x 251.52686pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 113.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 115.
+<Figures/HSMW-Logo-klein.png, id=7, 466.74374pt x 467.7475pt>
+File: Figures/HSMW-Logo-klein.png Graphic file (type png)
+<use Figures/HSMW-Logo-klein.png>
+Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 115.
+(pdftex.def)             Requested size: 9.97781pt x 10.0pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}
+
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./Fritzing/Uebung_104_Steckplatine.pdf> <./Figures/hsmw-logo-klein.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 118.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 118.
 
-Overfull \hbox (30.31137pt too wide) in paragraph at lines 112--113
+Overfull \hbox (30.31137pt too wide) in paragraph at lines 118--119
 \T1/lmr/m/n/12 Verwenden Sie als Ba-sis das Aurix-Development-Studio-Template []\T1/lmtt/b/n/12 Uebung_104_Template.zip[]\T1/lmr/m/n/12 .
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 120.
-<Figures/HSMW-Logo-klein.png, id=6, 466.74374pt x 467.7475pt>
-File: Figures/HSMW-Logo-klein.png Graphic file (type png)
-<use Figures/HSMW-Logo-klein.png>
-Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 120.
-(pdftex.def)             Requested size: 9.97781pt x 10.0pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}
 
+Overfull \hbox (33.55717pt too wide) in paragraph at lines 120--121
+[][]\T1/lmtt/b/n/12 File > Import > General > Existing Projects into Workspace > Select archive
+ []
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./Fritzing/Uebung_104_Steckplatine.pdf> <./Figures/hsmw-logo-klein.png>]
+<Figures/Import_1.png, id=61, 389.20406pt x 415.5525pt>
+File: Figures/Import_1.png Graphic file (type png)
+<use Figures/Import_1.png>
+Package pdftex.def Info: Figures/Import_1.png  used on input line 126.
+(pdftex.def)             Requested size: 202.8099pt x 216.54507pt.
+<Figures/Import_2.png, id=62, 388.45125pt x 532.99126pt>
+File: Figures/Import_2.png Graphic file (type png)
+<use Figures/Import_2.png>
+Package pdftex.def Info: Figures/Import_2.png  used on input line 130.
+(pdftex.def)             Requested size: 202.8099pt x 278.27937pt.
 File: Figures/HSMW-Logo-klein.png Graphic file (type png)
 <use Figures/HSMW-Logo-klein.png>
-Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 145.
+Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 133.
 (pdftex.def)             Requested size: 9.97781pt x 10.0pt.
- [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-)
+[2 <./Figures/Uebung_104_Arduino_Pins.png>]
 File: Figures/HSMW-Logo-klein.png Graphic file (type png)
 <use Figures/HSMW-Logo-klein.png>
-Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 209.
+Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 165.
 (pdftex.def)             Requested size: 9.97781pt x 10.0pt.
- [3]
+ [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc} <./Figures/Import_1.png> <./Figures/Import_2.png>]
 File: Figures/HSMW-Logo-klein.png Graphic file (type png)
 <use Figures/HSMW-Logo-klein.png>
-Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 224.
+Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 172.
 (pdftex.def)             Requested size: 9.97781pt x 10.0pt.
- [4] (./Uebung_1-04.aux)
+ [4]
+File: Figures/HSMW-Logo-klein.png Graphic file (type png)
+<use Figures/HSMW-Logo-klein.png>
+Package pdftex.def Info: Figures/HSMW-Logo-klein.png  used on input line 177.
+(pdftex.def)             Requested size: 9.97781pt x 10.0pt.
+ [5] (./Uebung_1-04.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Uebung_1-04.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19704 strings out of 474222
- 364464 string characters out of 5748733
- 2079975 words of memory out of 5000000
- 41634 multiletter control sequences out of 15000+600000
- 612343 words of font info for 68 fonts, out of 8000000 for 9000
+ 19210 strings out of 474222
+ 359669 string characters out of 5748733
+ 1935975 words of memory out of 5000000
+ 41186 multiletter control sequences out of 15000+600000
+ 612394 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,22n,107p,10967b,1282s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Uebung_1-04.pdf (4 pages, 1063382 bytes).
+ 108i,22n,107p,10967b,681s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb>
+Output written on Uebung_1-04.pdf (5 pages, 1267450 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 66 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
