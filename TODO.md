@@ -11,8 +11,17 @@
 
 ## Uebung 202
 
-- Double check millis() function. Check if function is according the text of the task. 
+- Double check millis() function. Check if function is according the text of the task.
 
-## Uebung 203 
+## Uebung 203
 
 - Finish writing code to include button.
+
+## Uebung 303
+
+- Asking how the template should be, since it is not in the arduino source files.
+
+## Uebung 304
+
+- Finish Formatting
+- Finish Working on PDF
