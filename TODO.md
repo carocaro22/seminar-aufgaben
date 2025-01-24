@@ -17,9 +17,8 @@
 ## Uebung 202
 
 - Double check millis() function. Check if function is according the text of the task.
-- millis(): programm stoppt nach c.a. 10s
-- warum getLower()?
-- welche anzahl von ticks  
+** - millis(): programm stoppt nach c.a. 10s -> solved by creating Millis.h and Millis.c File. The millis function returns the "currentTime". The clock generates an interrupt every ms.**
+** - Welche anzahl an ticks? -> still not sure the time of one tick, but the illd has a function that calculates it for me? **
 
 ## Uebung 203
 
