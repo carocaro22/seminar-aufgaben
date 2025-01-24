@@ -95,14 +95,8 @@ In dieser Übung sollen die drei LED -- die jeweils \textbf{durch eine eigene Ta
 \textbf{Vorbereitungen:}
 
 \begin{itemize}
-\item Öffnen Sie den Template-Sketch \Farbcode{FreeRTOSApp.ino} (siehe OPAL)
-\item Installieren Sie die FreeRTOS-Bibliothek:
-\begin{itemize}
-\item Öffnen Sie die Bibliotheksverwaltung unter \texttt{\textbf{Menu $\to$ Bibliothek einbinden $\to$ Bibliothek verwalten...}}
-\item Suchen Sie nach \texttt{\textbf{FreeRTOS}}
-\item Installieren Sie die Bibliothek \emph{FreeRTOS} von \emph{Phillip Stevens}
-\item Sie haben die Bibliothek erfolgreich installiert, wenn das Template-Sketch fehlerfrei übersetzt
-\end{itemize}
+\item Öffnen Sie den Template (siehe OPAL).
+\item Die Bibliothek \emph{FreeRTOS} ist bereits im Template eingebunden. Die Quellcode befindet sich im \Farbcode{OS} Folder.
 \end{itemize}
 
 \noindent
@@ -119,7 +113,7 @@ In dieser Übung sollen die drei LED -- die jeweils \textbf{durch eine eigene Ta
 	\item \Farbcode{Task\_Bt} (Prio 1)
 \end{itemize}
 mit der Funktion \Farbcode{xTaskCreate(...)} (\emph{siehe Seite 3})
-\item Starten Sie am Ende der \texttt{main}-Funktion den Scheduler mittels \\
+\item Starten Sie gleich vor dem \texttt{while} Schleife den Scheduler mittels \\
 \Farbcode{vTaskStartScheduler();}
 \item Definieren Sie die entsprechenden drei Task-Funktionen für die LEDs, welche in einer Endlosschleife die LED blinken lassen
 \item Definieren Sie eine Task-Funktion zum überwachen des Buttons, wobei bei einem erfolgten Tastendruck eine Nachricht (ohne Blockierzeit) in die Queue gelegt werden (Funktion: \Farbcode{xQueueSend(..)} ) (\emph{siehe Seite 3}) -- Dabei soll als Nachricht die \textbf{Intervallzeit} wechselseitig 100 (5 Hz) und 500 (1 Hz) übertragen werden
